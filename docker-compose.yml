@@ -1,0 +1,10 @@
+services:
+  rtbf:
+    build: .
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+      - "2323:2323"
+    volumes:
+      - ./data:/app/data

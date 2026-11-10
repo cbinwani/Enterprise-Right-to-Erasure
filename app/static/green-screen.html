@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Legacy Green Screen</title><style>body{background:#050505;color:#33ff66;font-family:monospace;padding:30px}pre{font-size:18px}input,button{font-family:monospace;background:#050505;color:#33ff66;border:1px solid #33ff66;padding:8px}button{cursor:pointer}</style></head><body><pre>LEGACY CUSTOMER SYSTEM - 5250/3270 STYLE DEMO
+================================================
+STATUS: ONLINE
+
+CUSTOMER SEARCH
+Email: <input id="email" value="alice@example.com"> <button onclick="search()">SEARCH</button>
+
+<div id="out">Ready.</div>
+
+This screen represents the legacy system with no REST API.
+The RTBF platform reaches it through the terminal adapter.</pre><script>async function search(){let r=await fetch('/api/demo/green/search?email='+encodeURIComponent(document.getElementById('email').value));document.getElementById('out').textContent=JSON.stringify(await r.json(),null,2)}</script></body></html>

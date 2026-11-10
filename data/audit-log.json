@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "records": [
+    {
+      "id": "20261106194157456700",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "privacy-portal",
+      "event": "REQUEST_RECEIVED",
+      "detail": "Action=DELETE",
+      "status": "INFO",
+      "timestamp": "2026-11-06T19:41:57.456712+00:00"
+    },
+    {
+      "id": "20261106194157458981",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "policy-engine",
+      "event": "POLICY_DECISION",
+      "detail": "GDPR request approved for DELETE",
+      "status": "INFO",
+      "timestamp": "2026-11-06T19:41:57.458996+00:00"
+    },
+    {
+      "id": "20261106194157459687",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "exclusion-service",
+      "event": "EXCLUSION_CREATED",
+      "detail": "EXC-20261106-E77708D8",
+      "status": "INFO",
+      "timestamp": "2026-11-06T19:41:57.459700+00:00"
+    },
+    {
+      "id": "20261106194157521182",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "privacy-agent",
+      "event": "WEB_DELETE",
+      "detail": "{'status': 'DELETED', 'id': 'WEB-1001', 'timestamp': '2026-11-06T19:41:57.520068+00:00'}",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-06T19:41:57.521203+00:00"
+    },
+    {
+      "id": "20261106194157526573",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "privacy-agent",
+      "event": "GREEN_SCREEN_DELETE",
+      "detail": "{'status': 'DELETED', 'id': 'GRN-7788'}",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-06T19:41:57.526593+00:00"
+    },
+    {
+      "id": "20261106194157554021",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "privacy-agent",
+      "event": "COTS_DELETE",
+      "detail": "{'status': 'DELETED', 'contactId': 'COT-4422', 'timestamp': '2026-11-06T19:41:57.552708+00:00'}",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-06T19:41:57.554041+00:00"
+    },
+    {
+      "id": "20261106194157567530",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "validation-engine",
+      "event": "WEB_VERIFICATION",
+      "detail": "ABSENT",
+      "status": "INFO",
+      "timestamp": "2026-11-06T19:41:57.567555+00:00"
+    },
+    {
+      "id": "20261106194157568973",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "validation-engine",
+      "event": "GREEN_SCREEN_VERIFICATION",
+      "detail": "ABSENT",
+      "status": "INFO",
+      "timestamp": "2026-11-06T19:41:57.568987+00:00"
+    },
+    {
+      "id": "20261106194157581207",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "validation-engine",
+      "event": "COTS_VERIFICATION",
+      "detail": "ABSENT",
+      "status": "INFO",
+      "timestamp": "2026-11-06T19:41:57.581224+00:00"
+    },
+    {
+      "id": "20261106194157581672",
+      "request_id": "RTBF-20261106-E77708D8",
+      "actor": "validation-engine",
+      "event": "REQUEST_COMPLETED",
+      "detail": "COMPLETED",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-06T19:41:57.581683+00:00"
+    },
+    {
+      "id": "20261107083811572135",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "privacy-portal",
+      "event": "REQUEST_RECEIVED",
+      "detail": "Action=ANONYMIZE",
+      "status": "INFO",
+      "timestamp": "2026-11-07T08:38:11.572169+00:00"
+    },
+    {
+      "id": "20261107083811574243",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "policy-engine",
+      "event": "POLICY_DECISION",
+      "detail": "GDPR request approved for ANONYMIZE",
+      "status": "INFO",
+      "timestamp": "2026-11-07T08:38:11.574256+00:00"
+    },
+    {
+      "id": "20261107083811574971",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "exclusion-service",
+      "event": "EXCLUSION_CREATED",
+      "detail": "EXC-20261106-E77708D8",
+      "status": "INFO",
+      "timestamp": "2026-11-07T08:38:11.574981+00:00"
+    },
+    {
+      "id": "20261107083811619812",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "privacy-agent",
+      "event": "WEB_ANONYMIZE",
+      "detail": "{'status': 'ANONYMIZED', 'id': 'WEB-1001', 'timestamp': '2026-11-07T08:38:11.618784+00:00'}",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-07T08:38:11.619824+00:00"
+    },
+    {
+      "id": "20261107083811622803",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "privacy-agent",
+      "event": "GREEN_SCREEN_ANONYMIZE",
+      "detail": "{'status': 'ANONYMIZED', 'id': 'GRN-7788'}",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-07T08:38:11.622811+00:00"
+    },
+    {
+      "id": "20261107083811633080",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "privacy-agent",
+      "event": "COTS_ANONYMIZE",
+      "detail": "{'status': 'ANONYMIZED', 'contactId': 'COT-4422', 'timestamp': '2026-11-07T08:38:11.632180+00:00'}",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-07T08:38:11.633090+00:00"
+    },
+    {
+      "id": "20261107083811638195",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "validation-engine",
+      "event": "WEB_VERIFICATION",
+      "detail": "ABSENT",
+      "status": "INFO",
+      "timestamp": "2026-11-07T08:38:11.638201+00:00"
+    },
+    {
+      "id": "20261107083811639570",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "validation-engine",
+      "event": "GREEN_SCREEN_VERIFICATION",
+      "detail": "ABSENT",
+      "status": "INFO",
+      "timestamp": "2026-11-07T08:38:11.639575+00:00"
+    },
+    {
+      "id": "20261107083811643948",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "validation-engine",
+      "event": "COTS_VERIFICATION",
+      "detail": "ABSENT",
+      "status": "INFO",
+      "timestamp": "2026-11-07T08:38:11.643953+00:00"
+    },
+    {
+      "id": "20261107083811644827",
+      "request_id": "RTBF-20261107-3B17D8D0",
+      "actor": "validation-engine",
+      "event": "REQUEST_COMPLETED",
+      "detail": "COMPLETED",
+      "status": "SUCCESS",
+      "timestamp": "2026-11-07T08:38:11.644831+00:00"
+    }
+  ]
+}
